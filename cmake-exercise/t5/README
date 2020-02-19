@@ -1,0 +1,18 @@
+how to use: ch5是对ch1-ch4的总结
+
+一、在t5目录下进入build文件夹并打开终端，进行各类文件的编译安装
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/cmake/t5 ..
+make
+make install
+rm -rf *
+
+二、测试并调用已安装好的函数库，并对可执行文件与脚本进行安装
+在t5目录下进入进入src/build文件夹并打开终端
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/cmake/t5 ..
+make
+./hello
+make install
+rm -rf *
+
+三、对以上所安装的各类文件进行删除
+rm -rf /tmp/cmake/t5

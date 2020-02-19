@@ -1,0 +1,7 @@
+how to use
+
+在build目录下打开终端
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/cmake/t2 ..
+make
+make install
+rm -rf *

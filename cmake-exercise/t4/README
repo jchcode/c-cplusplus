@@ -1,0 +1,7 @@
+how to use
+
+在build目录下打开终端
+cmake ..
+make
+make install
+rm -rf *
